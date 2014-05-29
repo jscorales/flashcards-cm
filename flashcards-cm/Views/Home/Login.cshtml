@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+
+<h4 class="login-intro">Enter your KEC crendentials to continue.</h4>
+<div class="login-box">
+    <form role="form" class="clearfix" action="/home/login" method="post">
+        <div class="form-group">
+            <label for="UserName">User name</label>
+            <input type="text" class="form-control" id="UserName" name="UserName" placeholder="Enter User name">
+        </div>
+        <div class="form-group">
+            <label for="Password">Password</label>
+            <input type="password" class="form-control" id="Password" name="Password" placeholder=" password">
+        </div>
+
+        <button type="submit" class="btn btn-primary pull-right">Login</button>
+    </form>
+</div>
+

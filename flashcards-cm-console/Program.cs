@@ -9,7 +9,7 @@ using NPOI.XWPF.UserModel;
 using ICSharpCode.SharpZipLib.Zip;
 using System.IO;
 
-namespace flashcards_cm_console
+namespace flashcards_cm_console 
 {
     class Program
     {

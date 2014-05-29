@@ -1,0 +1,194 @@
+﻿body {
+    padding-bottom: 20px;
+    min-width: 970px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    /*max-width: 280px;*/
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.navbar-invert{
+    background-color: #1d256e;
+}
+
+.navbar-brand{
+    margin-right: 20px;
+    height: 60px;
+    width: 217px;
+    margin-left: 0 !important;
+    background: url('/Images/logo.png') no-repeat 0;
+    overflow: hidden;
+    text-indent: 10000px;
+}
+
+header.navbar{
+    border-radius: 0;
+    border: 0 none !important;
+}
+
+header .navbar-nav > li > a{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+}
+
+header .navbar-nav > li > a:hover{
+    background-color: #2BADD9;
+    /*color: #2BADD9;*/
+}
+
+.login-intro{
+    margin: 60px auto 0;
+    width: 390px;
+}
+
+.login-box{
+    width: 390px;
+    background-color: #e8e7ef;
+    border-radius: 10px;
+    padding: 40px 0;
+    margin: 10px auto;
+}
+
+.login-box form{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.login-box form .btn{
+    width: 90px;
+}
+
+/* Non-responsive overrides
+ *
+ * Utilitze the following CSS to disable the responsive-ness of the container,
+ * grid system, and navbar.
+ */
+
+/* Reset the container */
+.container {
+    width: 970px;
+    max-width: none !important;
+}
+
+/* Demonstrate the grids */
+.col-xs-4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #eee;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid #ddd;
+    border: 1px solid rgba(86,61,124,.2);
+}
+
+.container .navbar-header,
+.container .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* Always float the navbar header */
+.navbar-header {
+    float: left;
+}
+
+/* Undo the collapsing navbar */
+.navbar-collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+
+.navbar-toggle {
+    display: none;
+}
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand {
+    margin-left: -15px;
+}
+
+/* Always apply the floated nav */
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+.navbar-nav > li {
+    float: left;
+}
+.navbar-nav > li > a {
+    padding: 15px;
+}
+
+/* Redeclare since we override the float above */
+.navbar-nav.navbar-right {
+    float: right;
+}
+
+/* Undo custom dropdowns */
+.navbar .navbar-nav .open .dropdown-menu {
+    position: absolute;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-width: 0 1px 1px;
+    border-radius: 0 0 4px 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #333;
+}
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar .navbar-nav .open .dropdown-menu > .active > a,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff !important;
+    background-color: #428bca !important;
+}
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #999 !important;
+    background-color: transparent !important;
+}
